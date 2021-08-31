@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.karts.wastatussaver">
+    package="com.mddstudio.wastatussaver">
 
     <application
-        android:name=".MyApp"
+        android:name="com.mddstudio.wastatussaver.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,10 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WAStatusSaver">
-        <activity android:name=".HelpActivity"
+        <activity android:name="com.mddstudio.wastatussaver.HelpActivity"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".SplashActivity"
+            android:name="com.mddstudio.wastatussaver.SplashActivity"
             android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.mddstudio.wastatussaver.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="nosensor" />
         <activity
-            android:name=".MyStatusActivity"
+            android:name="com.mddstudio.wastatussaver.MyStatusActivity"
             android:screenOrientation="nosensor" />
         <activity
-            android:name=".PreviewActivity"
+            android:name="com.mddstudio.wastatussaver.PreviewActivity"
             android:screenOrientation="nosensor" />
         <activity
-            android:name=".PolicyActivity"
+            android:name="com.mddstudio.wastatussaver.PolicyActivity"
             android:screenOrientation="nosensor" />
-        <activity android:name=".VideoPlayerActivity" />
+        <activity android:name="com.mddstudio.wastatussaver.VideoPlayerActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

@@ -13,7 +13,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
 
 
-import com.karts.wastatussaver.R;
+import com.mddstudio.wastatussaver.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
